@@ -1,0 +1,59 @@
+         DATE  TIME   BOROUGH  ZIP CODE   LATITUDE  LONGITUDE  \
+0  04/14/2018  0:00    QUEENS   11435.0  40.695690 -73.810720   
+1  04/14/2018  0:00       NaN       NaN  40.670715 -73.916970   
+2  04/14/2018  0:05     BRONX   10459.0  40.820970 -73.892420   
+3  04/14/2018  0:05       NaN       NaN  40.758550 -73.924866   
+4  04/14/2018  0:10  BROOKLYN   11218.0  40.633670 -73.978775   
+
+                 LOCATION                    ON STREET NAME CROSS STREET NAME  \
+0   (40.69569, -73.81072)  SANDERS PLACE                            97 AVENUE   
+1  (40.670715, -73.91697)  EASTERN PARKWAY                                NaN   
+2   (40.82097, -73.89242)                               NaN               NaN   
+3  (40.75855, -73.924866)  34 AVENUE                                      NaN   
+4  (40.63367, -73.978775)  DAHILL ROAD                              17 AVENUE   
+
+                            OFF STREET NAME         ...          \
+0                                       NaN         ...           
+1                                       NaN         ...           
+2  1018      EAST 163 STREET                        ...           
+3                                       NaN         ...           
+4                                       NaN         ...           
+
+   CONTRIBUTING FACTOR VEHICLE 2  CONTRIBUTING FACTOR VEHICLE 3  \
+0                    Unspecified                            NaN   
+1                    Unspecified                            NaN   
+2                    Unspecified                            NaN   
+3                            NaN                            NaN   
+4                    Unspecified                            NaN   
+
+   CONTRIBUTING FACTOR VEHICLE 4  CONTRIBUTING FACTOR VEHICLE 5  UNIQUE KEY  \
+0                            NaN                            NaN     3880795   
+1                            NaN                            NaN     3880664   
+2                            NaN                            NaN     3880739   
+3                            NaN                            NaN     3881098   
+4                            NaN                            NaN     3882384   
+
+             VEHICLE TYPE CODE 1            VEHICLE TYPE CODE 2  \
+0              PASSENGER VEHICLE              PASSENGER VEHICLE   
+1  SPORT UTILITY / STATION WAGON  SPORT UTILITY / STATION WAGON   
+2              PASSENGER VEHICLE                           TAXI   
+3  SPORT UTILITY / STATION WAGON                            NaN   
+4              PASSENGER VEHICLE  SPORT UTILITY / STATION WAGON   
+
+   VEHICLE TYPE CODE 3 VEHICLE TYPE CODE 4 VEHICLE TYPE CODE 5  
+0                  NaN                 NaN                 NaN  
+1                  NaN                 NaN                 NaN  
+2                  NaN                 NaN                 NaN  
+3                  NaN                 NaN                 NaN  
+4                  NaN                 NaN                 NaN  
+
+[5 rows x 29 columns]
+9356
+9356
+9999
+months
+{'00': 0, '01': 2, '02': 3, '03': 2450, '04': 7529, '05': 0, '06': 0, '07': 0, '08': 0, '09': 0, '10': 0, '11': 11, '12': 4}
+total causualties:
+2628
+dates to casualties:
+{'04/14/2018': 546, '04/08/2018': 454, '03/06/2018': 1, '02/15/2018': 2, '04/13/2018': 651, '02/10/2018': 1, '01/23/2018': 1, '04/12/2018': 553, '01/05/2018': 1, '04/11/2018': 578, '12/18/2017': 1, '04/10/2018': 621, '12/17/2017': 1, '04/09/2018': 600, '12/14/2017': 1, '12/13/2017': 1, '11/27/2017': 1, '11/22/2017': 1, '04/07/2018': 476, '11/21/2017': 1, '11/18/2017': 1, '11/17/2017': 2, '04/06/2018': 503, '04/05/2018': 520, '11/15/2017': 2, '04/04/2018': 542, '11/13/2017': 1, '11/06/2017': 1, '11/02/2017': 1, '04/03/2018': 543, '04/02/2018': 549, '04/01/2018': 393, '03/29/2018': 602, '03/31/2018': 578, '03/28/2018': 617, '03/30/2018': 570, '03/27/2018': 81, '03/26/2018': 1}

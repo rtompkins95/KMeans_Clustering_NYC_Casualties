@@ -1,0 +1,271 @@
+['04/13/2018' '23:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Unspecified' 'Unspecified' nan nan
+ 3882083 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON'
+ 'SPORT UTILITY / STATION WAGON' nan nan]
+['04/09/2018' '9:47' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Unsafe Lane Changing' 'Unspecified' nan nan nan 3878522
+ 'SPORT UTILITY / STATION WAGON' 'CONV' nan nan nan]
+['04/07/2018' '1:20' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Driver Inattention/Distraction' nan nan
+ nan 3877672 'PASSENGER VEHICLE' 'TAXI' nan nan nan]
+['03/30/2018' '16:08' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Unspecified' nan nan nan 3873494
+ 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE' nan nan nan]
+['03/25/2018' '11:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ 'Unspecified' nan nan nan 3870246 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['03/13/2018' '16:20' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Driver Inattention/Distraction' nan nan
+ nan 3861844 'SPORT UTILITY / STATION WAGON' 'TAXI' nan nan nan]
+['03/02/2018' '19:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Pavement Slippery' 'Unspecified' 'Unspecified' nan nan 3856097
+ 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON' 'TAXI'
+ nan nan]
+['02/17/2018' '18:50' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ 'Unspecified' nan nan nan 3849177 'PASSENGER VEHICLE' 'TAXI' nan nan nan]
+['01/29/2018' '4:15' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ nan nan nan nan 3836227 'TAXI' nan nan nan nan]
+['01/19/2018' '16:32' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ 'Unspecified' nan nan nan 3832438 'PASSENGER VEHICLE' 'PASSENGER VEHICLE'
+ nan nan nan]
+['01/16/2018' '8:03' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ 'Unspecified' nan nan nan 3829655 'PICK-UP TRUCK' 'TAXI' nan nan nan]
+['01/14/2018' '6:45' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Alcohol Involvement' nan nan nan
+ 3829449 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['01/12/2018' '19:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unspecified'
+ 'Unspecified' nan nan nan 3828824 'TAXI' 'SPORT UTILITY / STATION WAGON'
+ nan nan nan]
+['01/11/2018' '9:15' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Unspecified' nan nan nan 3826894
+ 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['01/09/2018' '17:22' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Unsafe Lane Changing' 'Unspecified' nan nan nan 3825619
+ 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['01/04/2018' '10:46' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0 'Unsafe Speed'
+ 'Unspecified' nan nan nan 3822610 'DP' 'SPORT UTILITY / STATION WAGON'
+ nan nan nan]
+['01/01/2018' '0:51' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ 'QUEENSBORO BRIDGE UPPER ROADWAY ' nan nan 0 0 0 0 0 0 0 0
+ 'Driver Inattention/Distraction' 'Unspecified' 'Unspecified' nan nan
+ 3827479 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE'
+ 'PASSENGER VEHICLE' nan nan]
+['12/12/2017' '18:50' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Backing Unsafely' 'Unspecified' nan nan nan
+ 3807804 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON'
+ nan nan nan]
+['12/04/2017' '5:36' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' 'Unspecified' nan nan nan
+ 3803015 'SPORT UTILITY / STATION WAGON' 'TAXI' nan nan nan]
+['11/24/2017' '20:47' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Driver Inexperience'
+ nan nan nan 3798036 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE'
+ nan nan nan]
+['11/19/2017' '12:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Passing or Lane Usage Improper'
+ 'Unspecified' nan nan nan 3793790 'SPORT UTILITY / STATION WAGON'
+ 'PASSENGER VEHICLE' nan nan nan]
+['11/19/2017' '16:44' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unsafe Lane Changing' 'Unspecified' nan nan
+ nan 3793823 'TAXI' 'TK' nan nan nan]
+['11/14/2017' '12:28' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3790297 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['11/14/2017' '18:42' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3795169 'PASSENGER VEHICLE' 'TAXI' nan nan nan]
+['11/07/2017' '7:10' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Brakes Defective' 'Unspecified' nan nan nan
+ 3790240 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['10/20/2017' '9:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' 'Unspecified' nan nan nan
+ 3773254 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['10/13/2017' '22:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3770138 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['10/10/2017' '5:51' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Driver Inattention/Distraction' nan nan nan 3766427
+ 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['09/17/2017' '0:57' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' nan nan nan nan 3758066
+ 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['09/05/2017' '12:12' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Driver Inexperience'
+ nan nan nan 3744329 'SPORT UTILITY / STATION WAGON' 'TAXI' nan nan nan]
+['09/05/2017' '18:53' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Unspecified' nan nan
+ nan 3744316 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['08/25/2017' '3:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Outside Car Distraction'
+ 'Following Too Closely' nan nan nan 3737295
+ 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['08/17/2017' '16:45' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Driver Inattention/Distraction' nan nan nan 3734169 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['08/10/2017' '10:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 1 0 0 0 0 0 1 0 'Unspecified' 'Unspecified' nan nan nan
+ 3728412 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['08/09/2017' '18:14' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3728439 'SPORT UTILITY / STATION WAGON'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['07/20/2017' '0:01' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 3 0 0 0 0 0 3 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3714669 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['07/13/2017' '19:35' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely'
+ 'Following Too Closely' nan nan nan 3710676
+ 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['07/11/2017' '17:34' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified'
+ 'Unspecified' nan nan 3712013 'PASSENGER VEHICLE' 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan]
+['07/10/2017' '6:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified'
+ 'Unspecified' nan nan 3708654 'PASSENGER VEHICLE' 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan]
+['06/29/2017' '17:16' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Unspecified' nan nan
+ nan 3701906 'PASSENGER VEHICLE' 'TAXI' nan nan nan]
+['06/25/2017' '2:55' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' 'Unspecified' nan nan nan
+ 3698752 'TAXI' 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['06/16/2017' '16:39' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3694155 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['06/11/2017' '14:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3688891 'PASSENGER VEHICLE' 'PASSENGER VEHICLE'
+ nan nan nan]
+['06/03/2017' '21:55' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Failure to Yield Right-of-Way' 'Unspecified'
+ nan nan nan 3684094 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE'
+ nan nan nan]
+['05/31/2017' '18:51' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Driver Inexperience'
+ nan nan nan 3681675 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON'
+ nan nan nan]
+['05/29/2017' '9:28' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3680090 'SPORT UTILITY / STATION WAGON'
+ 'PASSENGER VEHICLE' nan nan nan]
+['05/27/2017' '10:35' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3680089 'SPORT UTILITY / STATION WAGON'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['05/25/2017' '12:40' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3680712 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE' nan nan
+ nan]
+['05/24/2017' '18:09' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely'
+ 'Reaction to Other Uninvolved Vehicle' nan nan nan 3677759
+ 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['05/24/2017' '18:17' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' 'Unspecified' nan nan 3677762
+ 'SPORT UTILITY / STATION WAGON' 'TAXI' 'PASSENGER VEHICLE' nan nan]
+['05/18/2017' '11:56' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3676160 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['05/18/2017' '15:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' 'Unspecified' nan nan 3672775 'PASSENGER VEHICLE'
+ 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan]
+['05/10/2017' '5:07' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 1 0 0 0 0 0 1 0 'Unspecified' 'Unspecified' nan nan nan
+ 3666698 'TAXI' 'TAXI' nan nan nan]
+['05/09/2017' '17:25' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3666689 'TAXI' nan nan nan nan]
+['05/06/2017' '23:10' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' 'Unspecified' nan nan nan
+ 3665524 'SPORT UTILITY / STATION WAGON' 'SPORT UTILITY / STATION WAGON'
+ nan nan nan]
+['05/02/2017' '17:45' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3661987 'SPORT UTILITY / STATION WAGON'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['04/20/2017' '13:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unsafe Lane Changing' 'Unspecified' nan nan
+ nan 3660895 'PASSENGER VEHICLE' nan nan nan nan]
+['04/08/2017' '17:28' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Unspecified' nan nan
+ nan 3648623 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan
+ nan]
+['04/06/2017' '17:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3650240 'PASSENGER VEHICLE' nan nan nan nan]
+['03/18/2017' '6:58' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 1 0 0 0 0 0 1 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3635223 'PASSENGER VEHICLE' 'PASSENGER VEHICLE' nan nan nan]
+['03/12/2017' '17:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3631319 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['03/04/2017' '18:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3626730 'PASSENGER VEHICLE'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['03/02/2017' '16:33' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inexperience' 'Unspecified' nan nan
+ nan 3625037 'SPORT UTILITY / STATION WAGON'
+ 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['02/23/2017' '8:55' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Pavement Slippery' nan nan nan nan 3620481
+ 'SPORT UTILITY / STATION WAGON' nan nan nan nan]
+['02/16/2017' '18:30' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' 'Unspecified' nan nan 3616997
+ 'SPORT UTILITY / STATION WAGON' 'PASSENGER VEHICLE' 'TAXI' nan nan]
+['02/02/2017' '18:20' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Unspecified' nan nan nan 3612004 'PASSENGER VEHICLE' 'TAXI' nan nan nan]
+['01/31/2017' '11:20' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Pavement Slippery' 'Unspecified' nan nan nan
+ 3607165 'PASSENGER VEHICLE' 'SPORT UTILITY / STATION WAGON' nan nan nan]
+['01/25/2017' '13:20' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' nan nan nan nan 3604794
+ 'PASSENGER VEHICLE' nan nan nan nan]
+['12/17/2016' '14:30' nan nan 40.854286 -201.35998999999998
+ '(40.854286, -201.35999)' nan nan nan 0 0 0 0 0 0 0 0 'Pavement Slippery'
+ nan nan nan nan 3581787 'SPORT UTILITY / STATION WAGON' nan nan nan nan]
+['12/17/2016' '4:00' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' nan nan nan nan 3584895
+ 'SPORT UTILITY / STATION WAGON' nan nan nan nan]
+['08/07/2016' '5:40' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Following Too Closely' 'Unspecified' nan nan
+ nan 3726915 'TAXI' 'TAXI' nan nan nan]
+['03/17/2016' '20:50' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Driver Inattention/Distraction'
+ 'Driver Inattention/Distraction' nan nan nan 3408508 'PASSENGER VEHICLE'
+ 'PASSENGER VEHICLE' nan nan nan]
+['03/14/2016' '8:04' nan nan 40.75837 -201.23706 '(40.75837, -201.23706)'
+ nan nan nan 0 0 0 0 0 0 0 0 'Unspecified' 'Unspecified' nan nan nan
+ 3408461 'PASSENGER VEHICLE' nan nan nan nan]
