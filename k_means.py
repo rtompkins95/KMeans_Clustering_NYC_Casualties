@@ -5,59 +5,50 @@ Class: Principles of Data Mining
 Prof: Dr. Kinsman
 """
 import numpy as np
-import csv
 import pandas as pd
 import argparse
 import matplotlib.pyplot as plt
 from sklearn.decomposition import PCA
-## from sklearn.preprocessing import Imputer
-from sklearn.impute import SimpleImputer 
+from sklearn.impute import SimpleImputer
 from sklearn import preprocessing
 from sklearn.cluster import KMeans
-from sklearn.preprocessing import OneHotEncoder
 
 
-def show_numpy_hist(data, title, xlabel, ylabel):
+def numpy_hist(data, title, xlabel, ylabel):
     plt.hist2d(data[0], data[1])  # arguments are passed to np.histogram
     plt.title(title)
     plt.xlabel(xlabel)
     plt.ylabel(ylabel)
     plt.show()
 
+
 def pandas_csv(filename):
     df = pd.read_csv(filename, parse_dates=True)
     return df
 
 
-def get_lat_long_data(data):
+def lat_long(data):
     locs = data[['LATITUDE', 'LONGITUDE']].dropna()
     return np.array(locs)
 
-def show_casualty_heat_map_by_location(data):
-    locs = get_lat_long_data(data)
-    show_numpy_hist(locs, 'Contour for Number of Accidents at Latitude/Longitude')
 
-"""
-    DATE
-    NUMBER OF PEDESTRIANS INJURED,
-    NUMBER OF PEDESTRIANS KILLED,
-"""
-def get_pedestrian_casulaties_with_dates(data):
+def casualty_heat_map_by_location(data):
+    locs = lat_long(data)
+    numpy_hist(locs, 'Contour for Number of Accidents at Latitude/Longitude')
+
+
+def pedestrian_casulaties_with_dates(data):
+    """
+        DATE
+        NUMBER OF PEDESTRIANS INJURED,
+        NUMBER OF PEDESTRIANS KILLED,
+    """
     injury_data = data[['DATE', 'NUMBER OF PEDESTRIANS INJURED', 'NUMBER OF PEDESTRIANS KILLED']].dropna()
     injuries = np.array(injury_data)
     return injuries
 
-"""
-    DATE
-    NUMBER OF PERSONS KILLED,
-    NUMBER OF PEDESTRIANS INJURED,
-    NUMBER OF PEDESTRIANS KILLED,
-    NUMBER OF CYCLIST INJURED,
-    NUMBER OF CYCLIST KILLED,
-    NUMBER OF MOTORIST INJURED,
-    NUMBER OF MOTORIST KILLED
-"""
-def get_total_casualties_with_dates(data):
+
+def total_casualties_with_dates(data):
     injury_data = data[['DATE', 'NUMBER OF PERSONS KILLED',
                         'NUMBER OF PEDESTRIANS INJURED', 'NUMBER OF PEDESTRIANS KILLED',
                         'NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED',
@@ -67,18 +58,8 @@ def get_total_casualties_with_dates(data):
 
     return injuries
 
-"""
-    LATITUDE
-    LONGITUDE
-    NUMBER OF PERSONS KILLED,
-    NUMBER OF PEDESTRIANS INJURED,
-    NUMBER OF PEDESTRIANS KILLED,
-    NUMBER OF CYCLIST INJURED,
-    NUMBER OF CYCLIST KILLED,
-    NUMBER OF MOTORIST INJURED,
-    NUMBER OF MOTORIST KILLED
-"""
-def get_total_casualties_with_locations(data):
+
+def total_casualties_with_locations(data):
     injury_data = data[['LATITUDE', 'LONGITUDE', 'NUMBER OF PERSONS KILLED',
                         'NUMBER OF PEDESTRIANS INJURED', 'NUMBER OF PEDESTRIANS KILLED',
                         'NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED',
@@ -86,18 +67,8 @@ def get_total_casualties_with_locations(data):
 
     return injury_data
 
-"""
-    DATE
-    BOROUGH
-    NUMBER OF PERSONS KILLED,
-    NUMBER OF PEDESTRIANS INJURED,
-    NUMBER OF PEDESTRIANS KILLED,
-    NUMBER OF CYCLIST INJURED,
-    NUMBER OF CYCLIST KILLED,
-    NUMBER OF MOTORIST INJURED,
-    NUMBER OF MOTORIST KILLED
-"""
-def get_total_borough_data(data):
+
+def total_borough_data(data):
     injury_data = data[['DATE', 'BOROUGH', 'NUMBER OF PERSONS KILLED',
                         'NUMBER OF PEDESTRIANS INJURED', 'NUMBER OF PEDESTRIANS KILLED',
                         'NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED',
@@ -107,9 +78,8 @@ def get_total_borough_data(data):
 
     return injuries
 
-"""
-"""
-def get_detailed_borough(data):
+
+def detailed_injury_data(data):
     injury_data = data[['DATE', 'BOROUGH', 'NUMBER OF PERSONS KILLED',
                         'NUMBER OF PEDESTRIANS INJURED', 'NUMBER OF PEDESTRIANS KILLED',
                         'NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED',
@@ -130,29 +100,22 @@ def get_detailed_borough(data):
 
     return borough_map
 
-"""
-    DATE
-    NUMBER OF CYCLIST INJURED,
-    NUMBER OF CYCLIST KILLED,
-"""
-def get_cyclist_casualties_with_dates(data):
-    injury_data = data[['DATE','NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED',]].dropna()
+
+def cyclist_casualties_with_dates(data):
+    injury_data = data[['DATE', 'NUMBER OF CYCLIST INJURED', 'NUMBER OF CYCLIST KILLED', ]].dropna()
     injuries = np.array(injury_data)
 
     return injuries
 
-"""
-    DATE
-    NUMBER OF MOTORIST INJURED,
-    NUMBER OF MOTORIST KILLED
-"""
-def get_motorist_casualties_with_dates(data):
-    injury_data = data[['DATE','NUMBER OF MOTORIST INJURED', 'NUMBER OF MOTORIST KILLED']].dropna()
+
+def motorist_casualties_with_dates(data):
+    injury_data = data[['DATE', 'NUMBER OF MOTORIST INJURED', 'NUMBER OF MOTORIST KILLED']].dropna()
     injuries = np.array(injury_data)
 
     return injuries
 
-def show_casualties_by_month_graph(injuries, partition_index):
+
+def casualties_by_month_graph(injuries, partition_index):
     # print('num injuries: ')
     # print(len(injuries))
 
@@ -214,9 +177,9 @@ def show_casualties_by_month_graph(injuries, partition_index):
     # plt.xlabel('Months (\'MM\' format)')
     # plt.ylabel('Number of casualties (injuries + deaths)')
     plt.plot(x, y)
-    # plt.show()
 
-def get_casuaties_by_month_data(injuries, sum_index):
+
+def casualties_by_month_data(injuries, sum_index):
     months = {}
     for i in range(13):
         if i == 0:
@@ -233,13 +196,13 @@ def get_casuaties_by_month_data(injuries, sum_index):
         month = i[0].split('/')[0]
         months[month] += curr_injury_sum
 
-
     lists = sorted(months.items())  # sorted by key, return a list of tuples
     x, y = zip(*lists)  # unpack a list of pairs into two tuples
 
-    return (x,y)
+    return (x, y)
 
-def show_casualties_by_borough_graph(injuries, casualty_type):
+
+def casualties_by_borough_graph(injuries, casualty_type):
     # print('num injuries: ')
     # print(len(injuries))
 
@@ -252,7 +215,7 @@ def show_casualties_by_borough_graph(injuries, casualty_type):
     x, y = zip(*lists)  # unpack a list of pairs into two tuples
 
     NUM_ENTRIES = str(len(injuries) + 1)
-    title = 'Number of ' + casualty_type +  ' Casualties by Borough (first ' + NUM_ENTRIES + ' entries)'
+    title = 'Number of ' + casualty_type + ' Casualties by Borough (first ' + NUM_ENTRIES + ' entries)'
     plt.title(title)
     plt.xlabel('Borough')
     plt.ylabel('Number of casualties (injuries + deaths)')
@@ -260,16 +223,16 @@ def show_casualties_by_borough_graph(injuries, casualty_type):
     plt.show()
 
 
-def show_borough_casualties_by_month_graph(data):
+def borough_casualties_by_month_graph(data):
     index_of_borough_col = 2
     boroughs = {'BRONX': 0, 'BROOKLYN': 0, 'MANHATTAN': 0, 'STATEN ISLAND': 0, 'QUEENS': 0}
     borough_names = ['BRONX', 'BROOKLYN', 'MANHATTAN', 'STATEN ISLAND', 'QUEENS']
     NUM_ENTRIES = str(len(data) + 1)
 
-    detailed_borough = get_detailed_borough(data)
+    detailed_borough = detailed_injury_data(data)
     for b in detailed_borough.keys():
         borough_injuries = detailed_borough[b]
-        boroughs[b] = get_casuaties_by_month_data(borough_injuries, index_of_borough_col)
+        boroughs[b] = casualties_by_month_data(borough_injuries, index_of_borough_col)
 
     title = 'Number of Casualties by Month (first ' + NUM_ENTRIES + ' entries)'
     plt.title(title)
@@ -283,15 +246,16 @@ def show_borough_casualties_by_month_graph(data):
     plt.legend(borough_names, loc='upper left')
     plt.show()
 
-def do_casualty_by_month_analysis(data):
-    total_injuries = get_total_casualties_with_dates(data)
 
-    total_borough = get_total_borough_data(data)
-    show_casualties_by_borough_graph(total_borough, 'Total')
+def casualty_by_month_analysis(data):
+    total_injuries = total_casualties_with_dates(data)
 
-    cyclist_injuries = get_cyclist_casualties_with_dates(data)
-    motorist_injuries = get_motorist_casualties_with_dates(data)
-    ped_injuries = get_pedestrian_casulaties_with_dates(data)
+    total_borough = total_borough_data(data)
+    casualties_by_borough_graph(total_borough, 'Total')
+
+    cyclist_injuries = cyclist_casualties_with_dates(data)
+    motorist_injuries = motorist_casualties_with_dates(data)
+    ped_injuries = pedestrian_casulaties_with_dates(data)
 
     NUM_ENTRIES = str(len(data) + 1)
     title = 'Number of Casualties by Month (first ' + NUM_ENTRIES + ' entries)'
@@ -299,13 +263,14 @@ def do_casualty_by_month_analysis(data):
     plt.xlabel('Months (\'MM\' format)')
     plt.ylabel('Number of casualties (injuries + deaths)')
 
-    show_casualties_by_month_graph(ped_injuries,  partition_index=1)
-    show_casualties_by_month_graph(cyclist_injuries, partition_index=1)
-    show_casualties_by_month_graph(motorist_injuries, partition_index=1)
-    show_casualties_by_month_graph(total_injuries, partition_index=1)
+    casualties_by_month_graph(ped_injuries, partition_index=1)
+    casualties_by_month_graph(cyclist_injuries, partition_index=1)
+    casualties_by_month_graph(motorist_injuries, partition_index=1)
+    casualties_by_month_graph(total_injuries, partition_index=1)
 
     plt.legend(['Pedestrian', 'Cyclist', 'Motorist', 'Total'], loc='upper left')
     plt.show()
+
 
 def graph_cumulutive_explained_variance(data):
     pca = PCA().fit(data)
@@ -314,6 +279,7 @@ def graph_cumulutive_explained_variance(data):
     plt.ylabel('cumulative explained variance')
 
     plt.show()
+
 
 def do_pca(data):
     pca = PCA(n_components=2)
@@ -324,11 +290,13 @@ def do_pca(data):
 
     return data_pca
 
+
 def impute_missing_values(data):
     imp = SimpleImputer(missing_values='NaN', strategy='mean', axis=0)
     imputed_data = imp.fit_transform(data)
 
     return imputed_data
+
 
 def one_hot_encoder(data):
     le = preprocessing.LabelEncoder()
@@ -339,12 +307,13 @@ def one_hot_encoder(data):
     # 2. FIT
     return enc.fit_transform(data_2)
 
-def show_scikit_kmeans_graph(data, num_clusters):
+
+def scikit_kmeans_graph(data, num_clusters):
+    # data = np.swapaxes(data, 0, 1)
     kmeans = KMeans(n_clusters=num_clusters)
     kmeans.fit(data)
     y_kmeans = kmeans.predict(data)
 
-    # plt.scatter(data[:, 0], data[:, 1], c=y_kmeans, s=10*data[:,2], cmap='viridis')
     plt.scatter(data[:, 0], data[:, 1], c=y_kmeans, s=200, cmap='viridis')
 
     centers = kmeans.cluster_centers_
@@ -353,11 +322,12 @@ def show_scikit_kmeans_graph(data, num_clusters):
     plt.scatter(centers[:, 0], centers[:, 1], c='black', s=500, alpha=0.5)
 
     plt.title('K-Means Clustering (K = ' + str(num_clusters) + ' )')
-    plt.xlabel('Latitude')
-    plt.ylabel('Longitude')
+    plt.xlabel('Longitude')
+    plt.ylabel('Latitude')
     plt.show()
 
-def clean_problem_lat_longs(data):
+
+def clean_lat_longs(data):
     data = np.array(data)
 
     cleaned_data = []
@@ -366,9 +336,9 @@ def clean_problem_lat_longs(data):
         if d[1] < -150:
             d[0] = 40.77
             d[1] = -73.95
-        if d[1] < -15 and d[1] > -70:
+        if -70 < d[1] < -15:
             continue
-        if d[1] == 0.0 and d[1] == 0.0:
+        if d[1] == 0.0 and d[2] == 0.0:
             continue
 
         cleaned_data.append([d[0], d[1]])
@@ -376,6 +346,7 @@ def clean_problem_lat_longs(data):
     cleaned_data = np.array(cleaned_data)
 
     return cleaned_data
+
 
 def parse_args():
     """Get a dictionary of the command line arguments
@@ -397,13 +368,14 @@ def parse_args():
 
 def main():
     args = parse_args()
-    file = args["file"]
+    f = args["file"]
 
-    data = pandas_csv(file)
-    data = get_lat_long_data(data)
+    data = pandas_csv(f)
+    data = lat_long(data)
 
-    cleaned_data = clean_problem_lat_longs(data)
+    cleaned_data = clean_lat_longs(data)
 
-    show_scikit_kmeans_graph(cleaned_data, 5)
+    scikit_kmeans_graph(cleaned_data, 5)
+
 
 main()
